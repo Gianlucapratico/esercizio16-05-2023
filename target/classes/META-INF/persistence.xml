@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="esercizio16-05-2023">
+	<class>app.Application</class>
+	<properties>
+	<property name="javax.persistence.jbdc.driver" value="org.postgresql.Driver"></property>
+	<property name="javax.persistence.jbdc.url" value="jdbc:postgresql://localhost:5432/esercizio16-05-2023?useSSl=false"/>
+	<property name="javax.persistence.jbdc.username" value="postgres"/>
+	<property name="javax.persistence.jbdc.password" value="zaddaro98"/>
+	<property name="hibernate.dialet" value="org.hibernate.dialet.PostgreSQLDialect"/>
+	<property name="hibernate.hbm2ddl.auto" value="update"/>
+	</properties>
+	</persistence-unit>
+</persistence>
